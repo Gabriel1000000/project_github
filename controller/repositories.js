@@ -1,6 +1,5 @@
 const repositories = document.querySelector(".content-main");
 // let el = document.getElementById('circle');
-
 function getApiGithub(){
 
     // fetch('https://api.github.com/users/Gabriel1000000').then(async res =>{
@@ -42,7 +41,6 @@ function getApiGithub(){
                     </div>
             </div>
             `
-
             repositories.appendChild(project);
         })
         
